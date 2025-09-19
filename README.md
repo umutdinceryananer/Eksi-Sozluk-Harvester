@@ -47,7 +47,7 @@ pip install playwright beautifulsoup4
 python -m playwright install chromium
 
 # 2) Run (headless by default)
-python eksi_play_harvester.py "https://eksisozluk.com/seboreik-dermatit--251668" -o out.json
+python eksi_play_harvester.py "https://eksisozluk.com/mckinsey--266991" -o out.json
 ```
 
 ## Installation
@@ -83,10 +83,10 @@ python -m playwright install chromium
 python eksi_play_harvester.py "<TOPIC_SLUG_OR_URL>" -o entries.json
 
 # Example with full URL:
-python eksi_play_harvester.py "https://eksisozluk.com/seboreik-dermatit--251668" -o out.json
+python eksi_play_harvester.py "https://eksisozluk.com/mckinsey--266991" -o out.json
 
 # Example with slug:
-python eksi_play_harvester.py "seboreik-dermatit--251668" -o out.json
+python eksi_play_harvester.py "mckinsey--266991" -o out.json
 ```
 
 ### Visible Browser (for debugging)
@@ -214,12 +214,4 @@ Eksi-Sozluk-Harvester/
 └─ (outputs) out.json        # example output (ignored)
 ```
 
-## License
-
-You can choose a license; MIT is common for tooling like this. Example:
-
-**MIT License**
-
-Copyright (c) ...
-
-Permission is hereby granted, free of charge, to any person obtaining a copy...
+This tool is for educational and research purposes only. Please respect Ekşi Sözlük’s Terms of Service and do not use it for abusive or commercial scraping.
